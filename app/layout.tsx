@@ -12,8 +12,8 @@ import InitColorSchemeScript from "@mui/material/InitColorSchemeScript";
 import theme from "./theme";
 import ChapterTree from "@/components/chapters";
 
-import CppIcon from "./icon.svg";
-import Image from "next/image";
+// import CppIcon from "./icon.svg";
+// import Image from "next/image";
 import Lightswitch from "@/components/lightswitch";
 
 import "./global.scss";
