@@ -12,8 +12,8 @@ import InitColorSchemeScript from "@mui/material/InitColorSchemeScript";
 import theme from "./theme";
 import ChapterTree from "@/components/chapters";
 
-// import CppIcon from "./icon.svg";
-// import Image from "next/image";
+import WebIcon from "./icon.jpeg";
+import Image from "next/image";
 import Lightswitch from "@/components/lightswitch";
 
 import "./global.scss";
@@ -48,7 +48,7 @@ function Header() {
         }}
       >
         <Stack direction="row" alignItems="center" spacing={1}>
-          {/* <Image src={CppIcon} alt="" height={32} width={32} /> */}
+          {<Image src={WebIcon} alt="" height={32} width={32} />}
           <Typography fontSize="1.125rem" fontWeight="600">
             TITLE-PLACEHOLDER
           </Typography>

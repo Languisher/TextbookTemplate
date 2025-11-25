@@ -1,4 +1,4 @@
-# textbook
+# Textbook
 
 Markdown files should be placed inside of the `src/` folder.
 
@@ -15,6 +15,22 @@ npm run dev
 ```
 
 and then open [http://localhost:3000](http://localhost:3000) with your browser.
+
+## Configurations
+
+In `app/book.tsx`, find:
+
+```tsx
+  const meta: NodeMetadata = {
+    ...result.data,
+    nodePath,
+    contentPath,
+    path: browserPath,
+    nav_title: result.data.nav_title ?? result.data.title,
+    hidden: result.data.hidden ?? false,
+    github: `https://github.com/Languisher/TextbookTemplate/blob/main/${contentPath}`, // Change here !!
+  };
+```
 
 ## Change Placeholders
 

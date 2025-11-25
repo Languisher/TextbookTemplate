@@ -240,7 +240,7 @@ async function buildNode(
     path: browserPath,
     nav_title: result.data.nav_title ?? result.data.title,
     hidden: result.data.hidden ?? false,
-    github: `https://github.com/cs106l/textbook/blob/main/${contentPath}`,
+    github: `https://github.com/Languisher/TextbookTemplate/blob/main/${contentPath}`,
   };
 
   const node: BookNode = {
